@@ -1,16 +1,28 @@
-body {
+body{
     margin: 0px;
     padding: 0px;
-    background-color: green;
+    background-color: #00337C;
 }
 
-.NavBar{
-    background-color: white;
-}
-
-.NavBar img{
-    margin: 0px;
+.NavBox ul{
+    margin:0px;
     padding: 0px;
-    width: 150px;
-    height:250px;
+    list-style-type: none;
+}
+
+.NavBox ul li{
+    display: inline-block;
+}
+
+.NavBox ul li a{
+    margin:0px;
+    padding: 0px;
+    color: #03C988;
+    font-size: 30px;;
+    text-decoration: none;
+}
+
+.HomePageImg img{
+    width:50vh;
+    height: 75vh;
 }
