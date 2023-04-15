@@ -3,3 +3,14 @@ body {
     padding: 0px;
     background-color: green;
 }
+
+.NavBar{
+    background-color: white;
+}
+
+.NavBar img{
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height:250px;
+}
