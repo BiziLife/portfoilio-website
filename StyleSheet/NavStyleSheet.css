@@ -1,28 +1,46 @@
+/*
+COLORS
+
+Dark Blue: #13005A
+Blue: #00337C
+Lighter Blue: #1C82AD
+Green Light: #03C988
+
+*/
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
-    margin: 0px;
-    padding: 0px;
-    background-color: #00337C;
-}
-
-.NavBox ul{
-    margin:0px;
-    padding: 0px;
-    list-style-type: none;
-}
-
-.NavBox ul li{
-    display: inline-block;
-}
-
-.NavBox ul li a{
-    margin:0px;
-    padding: 0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
     color: #03C988;
-    font-size: 30px;;
-    text-decoration: none;
+    padding: 30px;
+    
 }
 
-.HomePageImg img{
-    width:50vh;
-    height: 75vh;
+.header{
+    height: 100vh;
+    background-image: linear-gradient(
+        225deg, 
+        #00337C 50%, 
+        #13005A);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-image-box{
+    position: absolute;
+    bottom: -7px;
+    left: 35%;
+}
+
+.header-image{
+    height: 90vh;
 }
