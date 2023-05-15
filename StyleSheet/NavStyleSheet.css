@@ -84,3 +84,18 @@ body {
 .header-image {
     height: 95vh;
 }
+
+.index-text{
+    position:absolute;
+    top:40%;
+    left:10%;
+}
+
+.first-index-text h2{
+    font-size: 36px;
+    color: #03C988;
+}
+
+.second-index-text h1{
+    font-size:42px;
+}
