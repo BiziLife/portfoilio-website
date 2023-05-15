@@ -55,15 +55,17 @@ body {
     display:inline;
     padding: 50px;
 }
+
+.nav-menu-blog-link {
+    padding-right: 350px !important;
+}
+
  .nav-menu-main-links ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #03C988;
 }
 
- .nav-menu-blog-link{
-     padding-right: 300px;
- }
 
 .header {
     height: 100vh;
